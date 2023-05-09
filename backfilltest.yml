@@ -1,0 +1,11 @@
+---
+service: service1
+dependency-service: service2
+scope-limit:
+- "*"
+tier: Community
+operation: add
+backfill-tasks:
+- oms-scale-unit-id: bb3dfb71-2eb5-4260-8d5d-2bf116d36298
+  scale-unit-id: bb3dfb71-2eb5-4260-8d5d-2bf116d36298
+  dependency-service-scale-unit-id: bb3dfb71-2eb5-4260-8d5d-2bf116d36298
