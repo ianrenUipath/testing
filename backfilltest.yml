@@ -1,5 +1,0 @@
----
-service: service1
-scope-limit:
-- "*"
-oms-scale-unit-id: bb3dfb71-2eb5-4260-8d5d-2bf116d36298
